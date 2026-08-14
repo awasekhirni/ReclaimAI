@@ -53,3 +53,6 @@ putting consumer interests first. An in-house financial data aggregation module 
 https://ncua.gov/
 https://banks.data.fdic.gov/api/institutions
 https://api.brokercheck.finra.org/firms
+https://www.occ.gov/topics/charters-and-licensing/financial-institution-lists/index-financial-institution-lists.html
+
+https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/?size=1
