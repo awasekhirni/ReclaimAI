@@ -45,3 +45,9 @@ B2B Partnerships: Partnering with credit repair agencies, bankruptcy attorneys, 
 
 f. Go-to-Market & Execution
 Our initial go-to-market strategy targets digital acquisition through SEO, financial literacy partnerships, and targeted campaigns aimed at consumers with recent credit events. Phase 2 introduces B2B2C integrations with credit repair agencies, legal aid, and financial counselors who can offer ReclaimAI as a value-add to their clients. We will launch in three pilot states, leveraging our automated compliance engine to scale nationwide within 18 months, capturing market share through speed and technological superiority.
+
+
+
+https://ncua.gov/
+https://banks.data.fdic.gov/api/institutions
+https://api.brokercheck.finra.org/firms
