@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Financial Institution Regulatory Dataset",
+  "description": "JSON Schema for the provided CSV header fields (RSSD / banking regulatory data).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [],
+  "properties": {
+    "#ID_RSSD": {
+      "type": "string",
+      "description": "RSSD unique identifier for the entity"
+    },
+    "D_DT_START": {
+      "type": "string",
+      "format": "date",
+      "description": "Start date of the effective period"
+    },
+    "D_DT_END": {
+      "type": "string",
+      "format": "date",
+      "description": "End date of the effective period"
+    },
+    "BHC_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Bank Holding Company indicator"
+    },
+    "BROAD_REG_CD": {
+      "type": "string",
+      "description": "Broad regulatory code"
+    },
+    "CHTR_AUTH_CD": {
+      "type": "string",
+      "description": "Charter authority code"
+    },
+    "CHTR_TYPE_CD": {
+      "type": "string",
+      "description": "Charter type code"
+    },
+    "FBO_4C9_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Foreign banking organization 4C9 indicator"
+    },
+    "FHC_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Financial Holding Company indicator"
+    },
+    "FUNC_REG": {
+      "type": "string",
+      "description": "Functional regulator"
+    },
+    "INSUR_PRI_CD": {
+      "type": "string",
+      "description": "Insurance primary code"
+    },
+    "MBR_FHLBS_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Federal Home Loan Bank System member indicator"
+    },
+    "MBR_FRS_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Federal Reserve System member indicator"
+    },
+    "SEC_RPTG_STATUS": {
+      "type": "string",
+      "description": "SEC reporting status"
+    },
+    "EST_TYPE_CD": {
+      "type": "string",
+      "description": "Estimate type code"
+    },
+    "BANK_CNT": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of banks"
+    },
+    "BNK_TYPE_ANALYS_CD": {
+      "type": "string",
+      "description": "Bank type analysis code"
+    },
+    "D_DT_EXIST_CMNC": {
+      "type": "string",
+      "format": "date",
+      "description": "Date existence commenced"
+    },
+    "D_DT_EXIST_TERM": {
+      "type": "string",
+      "format": "date",
+      "description": "Date existence terminated"
+    },
+    "FISC_YREND_MMDD": {
+      "type": "string",
+      "pattern": "^(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])$",
+      "description": "Fiscal year end month and day (MMDD)"
+    },
+    "D_DT_INSUR": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of insurance"
+    },
+    "D_DT_OPEN": {
+      "type": "string",
+      "format": "date",
+      "description": "Date opened"
+    },
+    "FNCL_SUB_HOLDER": {
+      "type": "string",
+      "description": "Financial subsidiary holder"
+    },
+    "FNCL_SUB_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Financial subsidiary indicator"
+    },
+    "IBF_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "International Banking Facility indicator"
+    },
+    "ID_RSSD_HD_OFF": {
+      "type": "string",
+      "description": "RSSD ID of the head office"
+    },
+    "MJR_OWN_MNRTY": {
+      "type": "string",
+      "description": "Majority owned minority indicator"
+    },
+    "NM_LGL": {
+      "type": "string",
+      "description": "Legal name"
+    },
+    "NM_SHORT": {
+      "type": "string",
+      "description": "Short name"
+    },
+    "NM_SRCH_CD": {
+      "type": "string",
+      "description": "Name search code"
+    },
+    "ORG_TYPE_CD": {
+      "type": "string",
+      "description": "Organization type code"
+    },
+    "REASON_TERM_CD": {
+      "type": "string",
+      "description": "Reason for termination code"
+    },
+    "CNSRVTR_CD": {
+      "type": "string",
+      "description": "Conservator code"
+    },
+    "ENTITY_TYPE": {
+      "type": "string",
+      "description": "Entity type"
+    },
+    "AUTH_REG_DIST_FRS": {
+      "type": "string",
+      "description": "Authorized Federal Reserve district"
+    },
+    "ACT_PRIM_CD": {
+      "type": "string",
+      "description": "Primary activity code"
+    },
+    "CITY": {
+      "type": "string",
+      "description": "City name"
+    },
+    "CNTRY_NM": {
+      "type": "string",
+      "description": "Country name"
+    },
+    "ID_CUSIP": {
+      "type": "string",
+      "description": "CUSIP identifier"
+    },
+    "STATE_ABBR_NM": {
+      "type": "string",
+      "description": "State abbreviation name"
+    },
+    "PLACE_CD": {
+      "type": "string",
+      "description": "Place code"
+    },
+    "STATE_CD": {
+      "type": "string",
+      "description": "State code"
+    },
+    "STATE_HOME_CD": {
+      "type": "string",
+      "description": "Home state code"
+    },
+    "STREET_LINE1": {
+      "type": "string",
+      "description": "Street address line 1"
+    },
+    "STREET_LINE2": {
+      "type": "string",
+      "description": "Street address line 2"
+    },
+    "ZIP_CD": {
+      "type": "string",
+      "description": "ZIP code (preserves leading zeros)"
+    },
+    "ID_THRIFT": {
+      "type": "string",
+      "description": "Thrift institution identifier"
+    },
+    "ID_THRIFT_HC": {
+      "type": "string",
+      "description": "Thrift holding company identifier"
+    },
+    "DOMESTIC_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Domestic indicator"
+    },
+    "ID_ABA_PRIM": {
+      "type": "string",
+      "description": "Primary ABA routing number"
+    },
+    "ID_FDIC_CERT": {
+      "type": "string",
+      "description": "FDIC certificate number"
+    },
+    "ID_NCUA": {
+      "type": "string",
+      "description": "NCUA identifier"
+    },
+    "COUNTY_CD": {
+      "type": "string",
+      "description": "County code"
+    },
+    "DIST_FRS": {
+      "type": "string",
+      "description": "Federal Reserve district"
+    },
+    "ID_OCC": {
+      "type": "string",
+      "description": "OCC charter number"
+    },
+    "CNTRY_CD": {
+      "type": "string",
+      "description": "Country code"
+    },
+    "DT_END": {
+      "type": "string",
+      "format": "date",
+      "description": "End date"
+    },
+    "DT_EXIST_CMNC": {
+      "type": "string",
+      "format": "date",
+      "description": "Existence commencement date"
+    },
+    "DT_EXIST_TERM": {
+      "type": "string",
+      "format": "date",
+      "description": "Existence termination date"
+    },
+    "DT_INSUR": {
+      "type": "string",
+      "format": "date",
+      "description": "Insurance date"
+    },
+    "DT_OPEN": {
+      "type": "string",
+      "format": "date",
+      "description": "Open date"
+    },
+    "DT_START": {
+      "type": "string",
+      "format": "date",
+      "description": "Start date"
+    },
+    "ID_TAX": {
+      "type": "string",
+      "description": "Tax identification number (TIN)"
+    },
+    "PROV_REGION": {
+      "type": "string",
+      "description": "Province or region"
+    },
+    "URL": {
+      "type": "string",
+      "format": "uri",
+      "description": "Website URL"
+    },
+    "SLHC_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Savings and Loan Holding Company indicator"
+    },
+    "SLHC_TYPE_IND": {
+      "type": "string",
+      "description": "SLHC type indicator"
+    },
+    "PRIM_FED_REG": {
+      "type": "string",
+      "description": "Primary federal regulator"
+    },
+    "STATE_INC_CD": {
+      "type": "string",
+      "description": "State of incorporation code"
+    },
+    "CNTRY_INC_CD": {
+      "type": "string",
+      "description": "Country of incorporation code"
+    },
+    "STATE_INC_ABBR_NM": {
+      "type": "string",
+      "description": "State of incorporation abbreviation"
+    },
+    "CNTRY_INC_NM": {
+      "type": "string",
+      "description": "Country of incorporation name"
+    },
+    "ID_LEI": {
+      "type": "string",
+      "description": "Legal Entity Identifier (LEI)"
+    },
+    "IHC_IND": {
+      "type": "string",
+      "enum": ["Y", "N"],
+      "description": "Intermediate Holding Company indicator"
+    }
+  }
+}
