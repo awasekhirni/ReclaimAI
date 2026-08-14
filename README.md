@@ -5,6 +5,11 @@
 ReclaimAI
 Turning hidden institutional assets into consumer empowerment.
 
+
+Pitch:
+ReclaimAI leverages consumer-permissioned financial data and automated FOIA/public records workflows to identify and recover legally mandated surplus funds from institutional lenders, ensuring 100% DPPA and state-law compliance."
+
+
 a. The Problem
 Financial institutions hold billions in unclaimed surplus funds, including auto repossession overages and escrow refunds. When a repossessed vehicle sells for more than the loan balance, the surplus legally belongs to the consumer. However, banks rely on opaque processes and bureaucratic friction, knowing that financially vulnerable consumers rarely navigate the complex claims process. This results in billions of dollars in "breakage"—unclaimed funds absorbed by Wall Street while consumers suffer.
 
@@ -36,9 +41,6 @@ Sources
 Consumer-Permissioned Data (The Modern Fintech Approach): Instead of guessing, the user grants ReclaimAI permission (via Plaid or similar APIs) to scan their bank statements for recent "repossession" or "charge-off" line items. The AI then guides the user to request the official "Accounting of Sale" from the lender, which legally must be provided to the debtor, revealing the exact surplus amount.
 
 B2B Partnerships: Partnering with credit repair agencies, bankruptcy attorneys, or consumer protection nonprofits who already have a permissible purpose under the DPPA to access client motor vehicle records and can refer clients to our platform for a revenue share.
-
-Pitch:
-ReclaimAI leverages consumer-permissioned financial data and automated FOIA/public records workflows to identify and recover legally mandated surplus funds from institutional lenders, ensuring 100% DPPA and state-law compliance."
 
 
 f. Go-to-Market & Execution
